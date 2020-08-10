@@ -1,5 +1,18 @@
-const name = "Alamin Khan"
-if(name.length>0){
+//Falsy:
+//false
+//0
+//""
+//undefined
+//null
+//NaN
+//Truthy
+//'0'
+//' '
+//[]
+//true
+
+let name = 0;
+if(name || name == 0){
     console.log("condition is true");
 }
 else{
